@@ -20,7 +20,7 @@ export default function NavBar() {
         <Navbar.Toggle onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse in={open} id="basic-navbar-nav">
           <Nav className="me-auto text-center square warning " >
-            <Nav.Link onClick={() => setOpen(!open)}className="abu" href="#home">HOME</Nav.Link>
+            <Nav.Link onClick={() => setOpen(!open)}className="abu" href="#home">aku</Nav.Link>
             <Nav.Link onClick={() => setOpen(!open)}className="abu" href="#about">ABOUT</Nav.Link>
             <Nav.Link onClick={() => setOpen(!open)}className="abu"href="#project">PROJECT</Nav.Link>
             <Nav.Link onClick={() => setOpen(!open)}className="abu" href="#contact">CONTACT</Nav.Link>
