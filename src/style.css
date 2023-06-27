@@ -1,0 +1,94 @@
+
+.Container{
+    width: 100%
+}
+.Container-t1 {
+    
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #6102a1, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+/* #e73c7e */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.Container-t2 {
+    width: 100%;
+    background: rgb(7,89,180);
+background: linear-gradient(30deg, rgba(7,89,180,1) 0%, rgba(238,96,96,1) 86%);
+    
+    
+}
+.Container-t3 {
+    width: 100%;
+    background: rgb(0,36,75);
+background: linear-gradient(30deg, rgba(0,36,75,1) 0%, rgba(191,191,191,1) 100%);
+
+
+}
+.Container-t4 {
+    width: 100%;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+.imgSet{
+    
+    width: 135px;
+    height: 30px;
+}
+
+
+.marginSet{
+    margin: 40px 30px 0px 40px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+.char {
+    position: absolute;
+    font-size: 14vw;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 0.8em;
+  }
+
+  .forsection2{
+    display: block;
+    padding-left: 50px;
+    margin-right: auto;
+  }
+
+.white{
+    color: #ffff;
+}
+.abu{
+    color: #cfcecc;
+    
+}
+
+.dark1{
+    background: rgba(57, 56, 56, .4);
+width: 70%;
+margin:auto;
+}
+
+.dark2{
+    background: rgba(190, 190, 190, 0.8);
+ padding: 10px 10px 10px 10px
+}
